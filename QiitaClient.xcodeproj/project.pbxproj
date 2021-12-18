@@ -55,7 +55,6 @@
 				32E34723276DB74600E68C16 /* Model */,
 				32E34722276DB73E00E68C16 /* View */,
 				32E34714276DB6FB00E68C16 /* QiitaClientApp.swift */,
-				32E34716276DB6FB00E68C16 /* ContentView.swift */,
 				32E34718276DB70100E68C16 /* Assets.xcassets */,
 				32E3471A276DB70100E68C16 /* Preview Content */,
 			);
@@ -73,6 +72,7 @@
 		32E34722276DB73E00E68C16 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				32E34716276DB6FB00E68C16 /* ContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
