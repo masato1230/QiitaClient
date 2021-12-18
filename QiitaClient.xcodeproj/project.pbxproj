@@ -51,6 +51,9 @@
 		32E34713276DB6FB00E68C16 /* QiitaClient */ = {
 			isa = PBXGroup;
 			children = (
+				32E34724276DB74D00E68C16 /* ViewModel */,
+				32E34723276DB74600E68C16 /* Model */,
+				32E34722276DB73E00E68C16 /* View */,
 				32E34714276DB6FB00E68C16 /* QiitaClientApp.swift */,
 				32E34716276DB6FB00E68C16 /* ContentView.swift */,
 				32E34718276DB70100E68C16 /* Assets.xcassets */,
@@ -65,6 +68,27 @@
 				32E3471B276DB70100E68C16 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32E34722276DB73E00E68C16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		32E34723276DB74600E68C16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		32E34724276DB74D00E68C16 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
