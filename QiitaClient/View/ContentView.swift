@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ArticleView(url: "https://qiita.com")
+        SearchView(query: "", isEditing: false)
     }
 }
 

@@ -12,17 +12,31 @@ struct SearchView: View {
     @State var isEditing: Bool
     
     var body: some View {
-        VStack {
-            SearchBar(query: $query, isEditing: $isEditing)
-                .padding(8)
-            ScrollView {
-                VStack {
-                    ForEach(0...3, id: \.self) { _ in
-                        ResultCell()
+        NavigationView {
+            VStack {
+                SearchBar(query: $query, isEditing: $isEditing)
+                    .padding(8)
+                ScrollView {
+                    VStack {
+                        ForEach(0...3, id: \.self) { _ in
+                            NavigationLink {
+                                ScrollView {
+                                    VStack {
+                                        ArticleView(url: "https://qiita.com")
+                                            .frame(height: 2000, alignment: .center)
+                                            .navigationBarTitleDisplayMode(.inline)
+                                    }
+                                }
+                            } label: {
+                                ResultCell()
+                                    .foregroundColor(.black)
+                            }
+                        }
                     }
+                    .padding()
                 }
-                .padding()
             }
+            .navigationBarTitle("記事を検索")
         }
     }
 }
