@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		329A97E6276DF77700E2DA20 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329A97E5276DF77700E2DA20 /* Article.swift */; };
+		329A97E8276E00E500E2DA20 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329A97E7276E00E500E2DA20 /* ArticleView.swift */; };
 		32E34715276DB6FB00E68C16 /* QiitaClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E34714276DB6FB00E68C16 /* QiitaClientApp.swift */; };
 		32E34717276DB6FB00E68C16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E34716276DB6FB00E68C16 /* ContentView.swift */; };
 		32E34719276DB70100E68C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E34718276DB70100E68C16 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		329A97E5276DF77700E2DA20 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		329A97E7276E00E500E2DA20 /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
 		32E34711276DB6FB00E68C16 /* QiitaClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiitaClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E34714276DB6FB00E68C16 /* QiitaClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaClientApp.swift; sourceTree = "<group>"; };
 		32E34716276DB6FB00E68C16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				32E34725276DBDF800E68C16 /* SearchView.swift */,
 				32E34727276DC20200E68C16 /* SearchBar.swift */,
 				32E34729276DD4B600E68C16 /* ResultCell.swift */,
+				329A97E7276E00E500E2DA20 /* ArticleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				329A97E6276DF77700E2DA20 /* Article.swift in Sources */,
 				32E34726276DBDF800E68C16 /* SearchView.swift in Sources */,
 				32E3472A276DD4B600E68C16 /* ResultCell.swift in Sources */,
+				329A97E8276E00E500E2DA20 /* ArticleView.swift in Sources */,
 				32E34715276DB6FB00E68C16 /* QiitaClientApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
