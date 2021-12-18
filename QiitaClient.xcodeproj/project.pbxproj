@@ -11,6 +11,8 @@
 		32E34717276DB6FB00E68C16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E34716276DB6FB00E68C16 /* ContentView.swift */; };
 		32E34719276DB70100E68C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E34718276DB70100E68C16 /* Assets.xcassets */; };
 		32E3471C276DB70100E68C16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E3471B276DB70100E68C16 /* Preview Assets.xcassets */; };
+		32E34726276DBDF800E68C16 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E34725276DBDF800E68C16 /* SearchView.swift */; };
+		32E34728276DC20200E68C16 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E34727276DC20200E68C16 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		32E34716276DB6FB00E68C16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32E34718276DB70100E68C16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32E3471B276DB70100E68C16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32E34725276DBDF800E68C16 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		32E34727276DC20200E68C16 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				32E34716276DB6FB00E68C16 /* ContentView.swift */,
+				32E34725276DBDF800E68C16 /* SearchView.swift */,
+				32E34727276DC20200E68C16 /* SearchBar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,6 +168,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				32E34717276DB6FB00E68C16 /* ContentView.swift in Sources */,
+				32E34728276DC20200E68C16 /* SearchBar.swift in Sources */,
+				32E34726276DBDF800E68C16 /* SearchView.swift in Sources */,
 				32E34715276DB6FB00E68C16 /* QiitaClientApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
