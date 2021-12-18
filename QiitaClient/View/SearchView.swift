@@ -17,8 +17,11 @@ struct SearchView: View {
                 .padding(8)
             ScrollView {
                 VStack {
-                    // ここに検索結果のリストを置く
+                    ForEach(0...3, id: \.self) { _ in
+                        ResultCell()
+                    }
                 }
+                .padding()
             }
         }
     }
