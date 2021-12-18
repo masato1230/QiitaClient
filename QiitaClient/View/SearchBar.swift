@@ -31,6 +31,7 @@ struct SearchBar: View {
                         Button {
                             isEditing = false
                             query = ""
+                            UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
                         } label: {
                             Text("キャンセル")
                                 .padding(.trailing, 16)
