@@ -10,6 +10,7 @@ import SwiftUI
 struct SearchBar: View {
     @Binding var query: String
     @Binding var isEditing: Bool
+    @ObservedObject var viewModel = ArticlesViewModel.shared
     
     var body: some View {
         TextField("Query", text: $query)
@@ -19,6 +20,10 @@ struct SearchBar: View {
             .cornerRadius(8)
             .onTapGesture {
                 isEditing.toggle()
+            }
+            .onSubmit {
+                viewModel.fetchArticles(query: query
+                )
             }
             .overlay(
                 HStack{

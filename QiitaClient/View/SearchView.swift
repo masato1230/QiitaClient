@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct SearchView: View {
-    @State var query: String
-    @State var isEditing: Bool
+    @State var query: String = "SwiftUI"
+    @State var isEditing: Bool = false
+    @ObservedObject var viewModel = ArticlesViewModel.shared
     
     var body: some View {
         NavigationView {
@@ -18,17 +19,17 @@ struct SearchView: View {
                     .padding(8)
                 ScrollView {
                     VStack {
-                        ForEach(0...3, id: \.self) { _ in
+                        ForEach(viewModel.articles) { article in
                             NavigationLink {
                                 ScrollView {
                                     VStack {
-                                        ArticleView(url: "https://qiita.com")
+                                        ArticleView(url: article.url)
                                             .frame(height: 2000, alignment: .center)
                                             .navigationBarTitleDisplayMode(.inline)
                                     }
                                 }
                             } label: {
-                                ResultCell()
+                                ResultCell(viewModel: ResultCellViewModel(article))
                                     .foregroundColor(.black)
                             }
                         }

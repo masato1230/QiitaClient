@@ -1,12 +1,14 @@
 import Foundation
 
 class ArticlesViewModel: ObservableObject {
-    let BASE_URL = "https://qiita.com/api/v2/items?page=1&per_page=20&"
+    let BASE_URL = "https://qiita.com/api/v2/items?page=1&per_page=20&query="
     @Published var articles = [Article]()
     
     init() {
         fetchArticles(query: "SwiftUI")
     }
+    
+    static let shared = ArticlesViewModel()
     
     func fetchArticles(query: String) {
         guard let url = URL(string: BASE_URL + query) else { return }
@@ -17,6 +19,6 @@ class ArticlesViewModel: ObservableObject {
             } catch {
                 print("error")
             }
-        }
+        }.resume()
     }
 }

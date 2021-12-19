@@ -14,5 +14,5 @@ struct Article: Decodable, Identifiable {
 
 struct User: Decodable {
     let name: String
-    let profileImageUrl: String
+    let profile_image_url: String
 }
