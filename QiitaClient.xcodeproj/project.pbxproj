@@ -25,6 +25,7 @@
 		329A97E7276E00E500E2DA20 /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
 		32D63131276E25CA006DF83D /* ArticlesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewModel.swift; sourceTree = "<group>"; };
 		32D63133276EC2AF006DF83D /* ResultCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCellViewModel.swift; sourceTree = "<group>"; };
+		32D63135276ED2BD006DF83D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		32E34711276DB6FB00E68C16 /* QiitaClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiitaClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E34714276DB6FB00E68C16 /* QiitaClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaClientApp.swift; sourceTree = "<group>"; };
 		32E34716276DB6FB00E68C16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +72,7 @@
 				32E34714276DB6FB00E68C16 /* QiitaClientApp.swift */,
 				32E34718276DB70100E68C16 /* Assets.xcassets */,
 				32E3471A276DB70100E68C16 /* Preview Content */,
+				32D63135276ED2BD006DF83D /* README.md */,
 			);
 			path = QiitaClient;
 			sourceTree = "<group>";
